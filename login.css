@@ -1,0 +1,77 @@
+body{
+    margin:0px;
+    padding:0px;
+    background:rgb(43, 42, 42);
+    font-family: sans-serif;
+    overflow: hidden;
+    background-size: cover;
+    width: auto;
+    height:auto;
+}
+form{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    color:#ffffff;
+    padding:60px 30px;
+    font-size:30px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    box-shadow: 0 20px 50px rgba(0, 0, 0,.5);
+    overflow: hidden;
+    
+}
+form>#login{
+    margin-bottom:20px ;
+}
+#button:hover{
+    font-size: 21px;
+}
+#int{
+    margin-bottom:10px;
+    padding:5px ;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(to right,#d2cbe4,#5f5c5c)
+}
+#button{
+    margin-bottom:10px;
+    padding:5px;
+    float: right;
+    margin-right: 25px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(to right,#d2cbe4,#5f5c5c)
+
+}
+form p,form p a,form a{
+    color:white;
+    font-size: 12px;
+}
+form div{
+    text-align: center;
+    text-transform: capitalize;
+}
+form>div>a{
+    font-size: 20px;
+    padding: 15px;
+}
+form>div>a:hover{
+    font-size: 25px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0,.5);
+
+
+}
+.div{
+    display: flex;
+    flex-direction: row;
+}
+.or{
+    text-transform: lowercase;
+    font-size: 22px;
+}

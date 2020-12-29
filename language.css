@@ -1,0 +1,145 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background:#ffffff;
+    color:#544e4d;
+    padding-top:20px;
+    min-height: 70px;
+    text-transform:uppercase;
+    border-bottom: red 3px solid;
+}    
+.nav{
+    float: right;
+    margin-right: 30px;
+
+}
+ul>li{
+   display: inline;
+}
+.nav>ul>li>a{
+    font-size: 13px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+header #brand{
+   float:left;
+   margin-left: 100px;
+}
+header #brand h1{
+  margin:0;
+}
+header nav{
+  float:right;
+  margin-right: 100px;
+}
+header .highlight, header .current a{
+    color:#f9280c;
+    font-weight: bold;
+}
+.nav>ul>li>a:hover{
+    color:#e74741;
+    font-weight:bold;
+    font-size: 14px;
+}
+
+/*body*/
+.table{
+    padding: 20px 0;
+    width:90%;
+    margin:auto;
+}
+tr,td{
+    border: 2px solid gray;
+    background: rgb(235, 229, 229);
+    border-radius: 25px;
+    padding:5px;
+    
+}
+tr>td{
+    width: auto;
+}
+tr>td>a{
+    text-decoration: none;
+    color:black;
+}
+tr>td>a>h2{
+    font-weight: bold;
+}
+
+tr>td>a>p{
+    text-overflow: ellipsis;
+    width:250px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+@media screen and (max-width:511px){
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /*header*/
+    header{
+        background:#ffffff;
+        color:#544e4d;
+        padding-top:5px;
+        min-height: 50px;
+        text-transform:uppercase;
+        border-bottom: red 3px solid;
+    }
+    .nav{
+        float: right;
+        margin-right: 10px;
+
+    }
+    ul>li{
+       display: inline;
+    }
+    .nav>ul>li>a{
+        font-size: 10px;
+        text-decoration: none;
+
+    }
+    header #brand{
+       float:left;
+       margin-left: 5px;
+       font-size:7px;
+    }
+    header #brand h1{
+      margin:0;
+    }
+    header .highlight, header .current a{
+        color:#f9280c;
+        font-weight: bold;
+    }
+    header a:hover{
+        color:#f9da0c;
+        font-weight:bold;
+    }
+    .table{
+        padding: 5px 0;
+        width:auto;
+        margin:auto;
+    }
+    tr,td{
+        border: 2px solid gray;
+        background: rgb(235, 229, 229);
+        border-radius: 25px;
+        padding: 5px; 
+    }
+    tr>td>a{
+        color:black;
+        text-decoration: none;
+        padding: 0;
+    }
+    tr>td>a>h2{
+        font-weight: bold;
+    }
+    tr>td>a>p{
+        text-overflow: ellipsis;
+        width:80px;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    
+}

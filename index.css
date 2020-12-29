@@ -1,0 +1,186 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*header*/
+header{
+    background:#ffffff;
+    color:#544e4d;
+    padding-top:20px;
+    min-height: 70px;
+    text-transform:uppercase;
+    border-bottom: red 3px solid;
+}
+header a button{
+    color:#544e4d;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    background: none;
+    cursor: pointer;
+}
+header a button:hover{
+    font-size: 18px;
+    box-shadow: #544e4d;
+}
+
+ul>li{
+   display: inline;
+}
+header #brand{
+   float:left;
+   margin-left: 100px;
+}
+header #brand h1{
+  margin:0;
+}
+header nav{
+  float:right;
+  margin-right: 100px;
+}
+header .highlight, header .current a{
+    color:#f9280c;
+    font-weight: bold;
+}
+/*section*/
+.section{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+}
+.left{
+    width:40%;
+}
+.sub{
+    display: flex;
+    flex-direction: row;
+}
+.subright{
+    margin-left: 20px;
+}
+.section>.left>div>p{
+    font-size:33px;
+    font-weight: bold;
+    color:rgb(105, 99, 99);
+    text-transform: uppercase;
+}
+.section>div>div>div>div>a>button{
+    color:#544e4d;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    background: none;
+    cursor: pointer;
+}
+.section>div>div>div>div>a>button:hover{
+    font-size: 18px;
+    box-shadow: #544e4d;
+}
+/*footer*/
+.foot{
+    text-align: center;
+}
+@media screen and (max-width:511px){
+    /*header*/
+    header{
+        padding-top:5px;
+        min-height: 50px;
+    }
+    .nav{
+        float: right;
+        margin-right: 10px;
+
+    }
+    ul>li{
+       display: inline;
+    }
+    .nav>ul>li>a{
+        font-size: 10px;
+        text-decoration: none;
+
+    }
+    header #brand{
+       float:left;
+       margin-left: 5px;
+       font-size:9px;
+    }
+    header #brand h1{
+      margin:0;
+    }
+    header .highlight, header .current a{
+        color:#f9280c;
+        font-weight: bold;
+    }
+    header a:hover{
+        color:#f9da0c;
+        font-weight:bold;
+    }
+    
+header a button{
+    color:#544e4d;
+    text-align: center;
+    text-decoration: none;
+    font-size: 11px;
+    padding: 5px;
+    margin-right:10px;
+    border-radius: 8px;
+    background: none;
+    cursor: pointer;
+}
+.nav{
+    float: right;
+    margin-right: 10px;
+    margin-top:0;
+
+}
+ul>li{
+   display: inline;
+}
+.nav>ul>li>a{
+    font-size: 10px;
+    text-decoration: none;
+}
+.nav>ul>li>a>button:hover{
+    font-size: 12px;
+    box-shadow: #544e4d;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    margin: 0;
+}
+.left{
+    width:80%;
+    margin:auto;
+}
+.section>.left>div>p{
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(105, 99, 99);
+    text-transform: uppercase;
+}
+.section>div>div>div>div>a>button{
+    color:#544e4d;
+    text-decoration: none;
+    padding: 8px;
+    margin-right: 10px;
+    font-size: 11px;
+    border-radius: 10px;
+    background: none;
+    cursor: pointer;
+}
+.section>div>div>div>div>a>button:hover{
+    font-size: 12px;
+    box-shadow: #544e4d;
+}
+
+}

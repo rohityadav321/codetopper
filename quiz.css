@@ -1,0 +1,266 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*header*/
+header{
+    background:#ffffff;
+    color:#544e4d;
+    padding-top:20px;
+    min-height: 70px;
+    text-transform:uppercase;
+    border-bottom: red 3px solid;
+}    
+.nav{
+    float: right;
+    margin-right: 30px;
+
+}
+ul>li{
+   display: inline;
+}
+.nav>ul>li>a{
+    font-size: 13px;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+header #brand{
+   float:left;
+   margin-left: 100px;
+}
+header #brand h1{
+  margin:0;
+}
+header nav{
+  float:right;
+  margin-right: 100px;
+}
+header .highlight, header .current a{
+    color:#f9280c;
+    font-weight: bold;
+}
+.nav>ul>li>a:hover{
+    color:#e74741;
+    font-weight:bold;
+    font-size: 14px;
+}
+
+/*body*/
+.section{
+    display: flex;
+   
+}
+.left{
+    width:20%;
+    margin:0;
+    border-right: 2px double red;
+}
+.section>div{
+    
+    background: #ffffff;
+    padding: 20px;
+}
+.section>div>div>div>ol>li{
+    list-style-position:inside;
+    list-style-type: square;
+}
+.section>div>div>div>ol>li>a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.section>div>p{
+    margin-inline-start: 50px;
+}
+.center{
+    width:60%;
+    align-content: center;;
+}
+
+.center>div{ 
+    width:100%;
+    margin: auto;
+    overflow: auto;
+}
+
+.center>div>div{
+    margin:0 0 0;
+    font-size: 20px;
+}
+.center>div>ul{
+    padding: 0;
+}
+.center>div>ul>li{
+    display: inline-block;
+	background-color:#c7c2c2;
+	width: auto;
+	padding: 10px;
+	border-radius:15px;
+	margin-top: 10px;
+	font-size: 15px;
+	color:#181616;
+	box-shadow: 0px 3px 0px;
+	cursor: pointer;
+	outline: none;
+	text-align: start;
+
+}
+.center>div>ul>li:hover{
+    font-size:16px;
+    font-weight: bold;
+}
+#media{
+    display: none;
+}
+.center>div>ul>li:active{
+    box-shadow: 0px 3px 0px transparent;
+}
+.center>div>ul>li.correct{
+    background-color: #0fd40f;
+	box-shadow: 0px 3px 0px #03a503;
+
+}
+.center>div>ul>li.wrong{
+    background-color: #e91e1e;
+	box-shadow: 0px 3px 0px #cb0b0b;
+
+}
+.center>.scoreCard>div>button{
+    font-size: 17px;
+    padding:5px 10px;
+    border-radius: 25px;
+    background: #82d2f1;
+    border:2px solid #0ea8e6;
+    float: right;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.center>.scoreCard>div>button:hover{
+    font-size: 18px;
+    font-weight: bold;
+}
+.foot{
+    text-align: center;
+}
+@media screen and (max-width:511px){
+
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /*header*/
+    header{
+        background:#ffffff;
+        color:#544e4d;
+        padding-top:5px;
+        min-height: 50px;
+        text-transform:uppercase;
+        border-bottom: red 3px solid;
+    }
+    .nav{
+        float: right;
+        margin-right: 10px;
+
+    }
+    ul>li{
+       display: inline;
+    }
+    .nav>ul>li>a{
+        font-size: 10px;
+        text-decoration: none;
+
+    }
+    header #brand{
+       float:left;
+       margin-left: 5px;
+       font-size:7px;
+    }
+    header #brand h1{
+      margin:0;
+    }
+    header .highlight, header .current a{
+        color:#f9280c;
+        font-weight: bold;
+    }
+    header a:hover{
+        color:#f9da0c;
+        font-weight:bold;
+    }
+    /*body*/
+    .section{
+        display:flex;
+        width:auto;
+        flex-direction: column;
+    }
+    .left{
+        display: none;
+        margin:0;
+    }
+    #media{
+        display:block;
+    }
+    #level{
+        border:1px solid black;
+        border-radius: 25px;
+        padding: 5px;
+        margin: 0;
+    }
+    .center{
+        width: 100%;
+    }
+    .center>div{ 
+        width: 100%;
+        overflow: auto;
+    }
+    
+    .center>div>div{
+        margin: 0 0 0;
+        font-size: 16px;
+    }
+    .center>div>ul{
+        padding: 0;
+    }
+    .center>div>ul>li{
+        width:auto;
+        margin-left: 0;
+        padding: 5px;
+        box-shadow: 0px 2px 0px;
+        padding-right: 20px;
+        font-size: 14px;
+    }
+    .center>div>ul>li:hover{
+        font-size: 15px;
+        font-weight: normal;
+    }
+    .center>div>ul>li:active{
+        box-shadow: 0px 2px 0px transparent;
+    }
+    .center>div>ul>li.correct{
+        background-color: #0fd40f;
+        box-shadow: 0px 2px 0px #03a503;
+    
+    }
+    .center>div>ul>li.wrong{
+        background-color: #e91e1e;
+        box-shadow: 0px 2px 0px #cb0b0b;
+    
+    }
+    .center>.scoreCard>div{
+        margin-right:100px;
+    }
+    .center>.scoreCard>div>button{
+        font-size: 15px;
+        padding:5px 10px;
+        border-radius: 25px;
+        background: #82d2f1;
+        border:1px solid #0ea8e6;
+        float: right;
+        cursor: pointer;
+        margin-left: 5px;
+
+    }
+    .center>.scoreCard>div>button:hover{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+}
